@@ -10,3 +10,4 @@
 *.exe
 *.ilk
 .vs/CAMspace/v15/.suo
+*.ipch
