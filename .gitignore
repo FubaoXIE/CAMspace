@@ -3,3 +3,10 @@
 *.props
 *.db
 *.opendb
+*.log
+*.lastbuildstate
+*.tlog
+*.pdb
+*.exe
+*.ilk
+.vs/CAMspace/v15/.suo
