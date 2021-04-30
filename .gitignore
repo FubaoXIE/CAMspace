@@ -1,0 +1,5 @@
+
+*.obj
+*.props
+*.db
+*.opendb
