@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <LIBIGL_DIR>C:\Toolbox\libigl</LIBIGL_DIR>
+    <LIBIGL_INCLUDE_DIR>$(LIBIGL_DIR)\include</LIBIGL_INCLUDE_DIR>
+    <LIBIGL_LIB_DIR>$(LIBIGL_DIR)\build\Debug</LIBIGL_LIB_DIR>
+    <EIGEN3_DIR>C:\Toolbox\EIGEN\eigen-eigen-323c052e1731</EIGEN3_DIR>
+    <POLYSCOPE_DIR>C:\Toolbox\polyscope</POLYSCOPE_DIR>
+    <POLYSCOPE_INCLUDE_DIR>$(POLYSCOPE_DIR)\include;$(POLYSCOPE_DIR)\deps\args;$(POLYSCOPE_DIR)\deps\glad\include;$(POLYSCOPE_DIR)\deps\glfw\include;$(POLYSCOPE_DIR)\deps\glm;$(POLYSCOPE_DIR)\deps\happly;$(POLYSCOPE_DIR)\deps\json\include;$(POLYSCOPE_DIR)\deps\stb;$(POLYSCOPE_DIR)\deps\imgui\imgui</POLYSCOPE_INCLUDE_DIR>
+    <POLYSCOPE_LIB_DIR>$(POLYSCOPE_DIR)\build\src\Debug;$(POLYSCOPE_DIR)\build\deps\glad\src\Debug;$(POLYSCOPE_DIR)\build\deps\glfw\src\Debug;$(POLYSCOPE_DIR)\build\deps\imgui\Debug;$(POLYSCOPE_DIR)\build\deps\stb\Debug</POLYSCOPE_LIB_DIR>
+    <CGAL_DIR>C:\Toolbox\CGAL_4.14.3</CGAL_DIR>
+    <CGAL_INCLUDE_DIR>$(CGAL_DIR)\include;$(CGAL_DIR)\build\include;$(CGAL_DIR)\auxiliary\gmp\include</CGAL_INCLUDE_DIR>
+    <CGAL_LIB_DIR>$(CGAL_DIR)\auxiliary\gmp\lib;$(CGAL_DIR)\build\lib</CGAL_LIB_DIR>
+    <BOOST_DIR>C:\Toolbox\boost_1_68_0</BOOST_DIR>
+    <BOOST_LIB_DIR>$(BOOST_DIR)\lib64-msvc-14.1</BOOST_LIB_DIR>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="LIBIGL_DIR">
+      <Value>$(LIBIGL_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LIBIGL_INCLUDE_DIR">
+      <Value>$(LIBIGL_INCLUDE_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="LIBIGL_LIB_DIR">
+      <Value>$(LIBIGL_LIB_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="EIGEN3_DIR">
+      <Value>$(EIGEN3_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="POLYSCOPE_DIR">
+      <Value>$(POLYSCOPE_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="POLYSCOPE_INCLUDE_DIR">
+      <Value>$(POLYSCOPE_INCLUDE_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="POLYSCOPE_LIB_DIR">
+      <Value>$(POLYSCOPE_LIB_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CGAL_DIR">
+      <Value>$(CGAL_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CGAL_INCLUDE_DIR">
+      <Value>$(CGAL_INCLUDE_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="CGAL_LIB_DIR">
+      <Value>$(CGAL_LIB_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_DIR">
+      <Value>$(BOOST_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="BOOST_LIB_DIR">
+      <Value>$(BOOST_LIB_DIR)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
